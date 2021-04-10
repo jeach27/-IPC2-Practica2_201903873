@@ -1,6 +1,10 @@
 digraph G{
-<funciones.Nodo object at 0x000001A5323688E0>[label="{ Nombre: dasdsad | Apellido: fdasfsdf | Telefono: 423432 }",shape=Mrecord]
-<funciones.Nodo object at 0x000001A53239E6A0>[label="{ Nombre: fdsfsdf | Apellido: fsfsdf | Telefono: 3423423 }",shape=Mrecord]
-<funciones.Nodo object at 0x000001A5323688E0>-><funciones.Nodo object at 0x000001A53239E6A0>
-<funciones.Nodo object at 0x000001A53239E6A0>-><funciones.Nodo object at 0x000001A5323688E0>
+Label[label="Agenda"]
+<funciones.Nodo object at 0x0000028E1E5E88E0>[label="{ Nombre: Joaquin | Apellido: Coromac | Telefono: 35530751 }",shape=Mrecord]
+<funciones.Nodo object at 0x0000028E1E61E6A0>[label="{ Nombre: Samy | Apellido: Huezo | Telefono: 42417508 }",shape=Mrecord]
+<funciones.Nodo object at 0x0000028E1E61EBE0>[label="{ Nombre: Mynor | Apellido: Lopez | Telefono: 58746328 }",shape=Mrecord]
+<funciones.Nodo object at 0x0000028E1E5E88E0>-><funciones.Nodo object at 0x0000028E1E61E6A0>
+<funciones.Nodo object at 0x0000028E1E61E6A0>-><funciones.Nodo object at 0x0000028E1E5E88E0>
+<funciones.Nodo object at 0x0000028E1E61E6A0>-><funciones.Nodo object at 0x0000028E1E61EBE0>
+<funciones.Nodo object at 0x0000028E1E61EBE0>-><funciones.Nodo object at 0x0000028E1E61E6A0>
 }

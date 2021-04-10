@@ -40,6 +40,7 @@ class ListaDoble:
     def graficar(self):
         file = open('Agenda.dot','w')
         file.write('digraph G{\n')
+        file.write('Label[label="Agenda"]\n')
         aux = self.head
         while aux:
             file.write(str(aux)+'[label="{ Nombre: '+aux.nombre+' | Apellido: '+aux.apellido+' | Telefono: '+aux.telefono+' }",shape=Mrecord]\n')
